@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SMART CITY SIMULATION</title>
+    <style>
+        img {
+            height: 300px
+            width: 300px
+            -webkit-filter: drop-shadow(10px 10px 10px #666666);
+            filter: drop-shadow(10px 10px 10px #666666);
+          }
+        body {
+            background-color: rgba(231,239,241,255);
+            font-family: 'Rubik', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Rubik', sans-serif;
+        }
+        .container {
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        p {
+            font-size: 18px;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .button-2d {
+            background-color: rgba(165,198,204,255);
+            color: white;
+            padding: 20px 30px;
+            margin-right: 10px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button-2d:hover {
+            background-color: rgb(126,143,147);
+        }
+        .button-3d {
+            background-color: rgba(255,255,255,255);
+            color: white;
+            padding: 20px 30px;
+            margin-left: 10px;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+        }
+        .button-3d:hover {
+            background-color: rgb(228,236,243);
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-size: 35px;">SMART CITY SIMULATION</h1>
+        <img src="static\images\city.jpg" alt="model2d">
+        <p style="font-size: 20px; color: grey">We have successfully processed your files!</p>
+        <div class="buttons">
+            <a href="model3d" class="button-3d" style="color: #040404; background-color: rgba(255,255,255,255); padding: 20px 30px; border-radius: 15px; text-decoration: none; margin-right: 10px; font-size: 18px; font-weight: bold">3D FREE VIEW</a>
+            <a href="model2d" class="button-2d" style="color: #fff; background-color: rgba(165,198,204,255); padding: 20px 30px; border-radius: 15px; text-decoration: none; margin-right: 10px; font-size: 18px; font-weight: bold">2D TOP VIEW</a>
+            <a href="download" class="button-2d" style="color: #fff; background-color: rgba(165,198,204,255); padding: 20px 30px; border-radius: 15px; text-decoration: none; margin-right: 10px; font-size: 18px; font-weight: bold">DOWNLOAD MODEL</a>
+        </div>
+        <div style="position: absolute; bottom: 0; left: 0; right: 0; margin-bottom: 10px; text-align: center;">
+            <a href="https://github.com/QuibDev/smartCityInnovation2023" style="color: grey; font-size: 21px; text-decoration: none;">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
